@@ -10,3 +10,5 @@ class Autoloader
         }
     }
 }
+
+spl_autoload_register(array('Autoloader', 'loadPackages'));

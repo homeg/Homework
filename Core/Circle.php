@@ -1,7 +1,6 @@
 <?php
 namespace Core;
 
-
 class Circle extends Figure
 {
     private $radius;
@@ -18,7 +17,7 @@ class Circle extends Figure
 
     public function draw()
     {
-        echo "Drow Circle";
+        echo "Draw Circle";
     }
 
     public function rotate()

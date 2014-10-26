@@ -1,7 +1,6 @@
 <?php
 namespace Core;
 
-
 interface Action
 {
     public function draw();
