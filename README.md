@@ -1,2 +1,2 @@
-Homework GeekHub №1
+HomeWork GeekHub №1
 ========
