@@ -1,20 +1,29 @@
 <?php
+namespace Core;
 
-include("AbstractTriangle.php");
-
-class Rectangle extends AbstractTriangle
+class Rectangle extends Figure
 {
-    public function getAreaTriangle()
+    private $length;
+    private $width;
+
+    public function __construct($length, $width)
     {
-        echo "area = 160 ";
+        $this->length = $length;
+        $this->width = $width;
     }
 
-    public function getPerimeterTriangle()
+    public function getArea()
     {
-        echo "perimeter = 50 ";
+        return $this->length * $this->width;
+    }
+
+    public function draw()
+    {
+        echo "Draw Rectangle";
+    }
+
+    public function rotate()
+    {
+        echo "Rotate Rectangle";
     }
 }
-
-$triangle = new Rectangle();
-$triangle->getAreaTriangle();
-$triangle->getPerimeterTriangle();

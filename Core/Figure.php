@@ -2,7 +2,7 @@
 namespace Core;
 
 
-abstract class Figure
+abstract class Figure implements Action
 {
     public abstract function getArea();
 }
